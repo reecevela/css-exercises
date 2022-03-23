@@ -1,0 +1,21 @@
+/* style.css */
+
+.student {
+  background-color: rgb(236, 167, 196);
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cool {
+  font-size: 24px;
+}
+
+#purps {
+  color: #30309c;
+  font-size: 36px;
+}
+
+#el-verde {
+  background-color: #33ff10;
+  font-size: 24px;
+  font-weight: bold;
+}
