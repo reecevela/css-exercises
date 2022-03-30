@@ -1,6 +1,13 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.24);
+  height:100vh;
 }
+
 
 img {
   width: 100px;
@@ -10,6 +17,22 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  background-color: rgba(127, 255, 212, 0.24);
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: rgba(204, 149, 186, 0.25);
+}
+
+.card {
+  margin: 8px;
+  max-width: 170px;
+  text-align: center;
+  background-color: rgba(255, 235, 205, 0.25);
 }
 
 /* do not edit this footer */
